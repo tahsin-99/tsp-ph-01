@@ -1,68 +1,85 @@
-*{
-     font-family: "Roboto", sans-serif;
-    
-    
+* {
+    font-family: "Roboto", sans-serif;
+
+
 }
-.item-center{
+
+.item-center {
     display: flex;
     justify-content: center;
 }
-.header{
-  
-    
+
+.banner {
+
+
     background-image: url(../Assets/Hero-bg.png);
-    
-    border: 2px solid red;
+    margin-bottom: 116px;
+
     height: 698px;
-   
+    width: 100%;
+
+
 }
-nav{
+
+nav {
+
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 158px;
-    margin-top:50px ;
 }
-.logo{
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+
+.logo {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
-.btn-1{
+
+.btn-1 {
     width: 132px;
     height: 48px;
-    background-color:#4E47FF ;
+    background-color: #4E47FF;
     color: white;
     border-radius: 10px;
     border: none;
-    font-size:16px ;
+    font-size: 16px;
     font-weight: bold;
 
 }
-.btn-2{
-     width: 174px;
+
+.banner-content {
+
+    width: 905px;
+    height: 237px;
+    text-align: center;
+    margin: 158px auto;
+
+}
+
+.btn-2 {
+    width: 174px;
     height: 48px;
-    background-color:#4E47FF ;
+    background-color: #4E47FF;
     color: white;
     border-radius: 10px;
     border: none;
-    font-size:16px ;
+    font-size: 16px;
     font-weight: bold;
     margin-top: 37px;
-   
+
 
 }
-.btn-3{
+
+.btn-3 {
     width: 229px;
     height: 48px;
-    background-color:#4E47FF ;
+    background-color: #4E47FF;
     color: white;
     border-radius: 10px;
     border: none;
-    font-size:16px ;
+    font-size: 16px;
     font-weight: bold;
     margin-top: 37px;
     padding: 12px 36px;
@@ -71,26 +88,43 @@ nav{
 
 
 
-.banner-content{
-  display: flex;
-  justify-items: center;
-  align-items: center;
-   border: 2px solid green;
-   
-   
-}
-.action{
+.action {
     width: 1140px;
     height: 328px;
-    border: 2px solid blue;
+
     margin-top: 116px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 116px;
 }
-.action-img img{
-    border-radius: 48px; 
+
+.action-img img {
+    border-radius: 48px;
 }
 
+.productive {
+    background-color: #4E47FF20;
+    width: 1140px;
+    height: 306px;
+    border-radius: 24px;
+    padding: 50px 80px;
+    text-align: center;
+}
 
+.Statistics {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat h2 {
+    margin: 0;
+}
+
+.stat p {
+    margin: 0;
+}
