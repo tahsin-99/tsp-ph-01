@@ -1,0 +1,96 @@
+*{
+     font-family: "Roboto", sans-serif;
+    
+    
+}
+.item-center{
+    display: flex;
+    justify-content: center;
+}
+.header{
+  
+    
+    background-image: url(../Assets/Hero-bg.png);
+    
+    border: 2px solid red;
+    height: 698px;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 158px;
+    margin-top:50px ;
+}
+.logo{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.btn-1{
+    width: 132px;
+    height: 48px;
+    background-color:#4E47FF ;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size:16px ;
+    font-weight: bold;
+
+}
+.btn-2{
+     width: 174px;
+    height: 48px;
+    background-color:#4E47FF ;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size:16px ;
+    font-weight: bold;
+    margin-top: 37px;
+   
+
+}
+.btn-3{
+    width: 229px;
+    height: 48px;
+    background-color:#4E47FF ;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size:16px ;
+    font-weight: bold;
+    margin-top: 37px;
+    padding: 12px 36px;
+}
+
+
+
+
+.banner-content{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+   border: 2px solid green;
+   
+   
+}
+.action{
+    width: 1140px;
+    height: 328px;
+    border: 2px solid blue;
+    margin-top: 116px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 116px;
+}
+.action-img img{
+    border-radius: 48px; 
+}
+
+
