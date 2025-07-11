@@ -143,13 +143,17 @@ nav {
     margin: 0;
 }
 .touch{
-    border: 2px solid red;
+   
     width: 1140px;
     height:632px;
     margin-top:92px ;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.touch-box label{
+    font-size: 18px;
+    font-weight:500 ;
 }
 
 .touch-box input{
@@ -170,3 +174,25 @@ nav {
 
     
 }
+ .footer{
+   
+    height: 428px;
+    align-items: center;
+    margin-top: 104px;
+ }
+
+ .footer-content{
+  
+    text-align: center;
+    align-items: center;
+    height: 221px;
+    width: 531px;
+ }
+ .footer-text{
+    display: flex;
+    
+     justify-content: center;
+     justify-content: space-around;
+     color:#8987A1 ;
+
+ }
