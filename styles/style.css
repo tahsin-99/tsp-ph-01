@@ -312,3 +312,17 @@ nav {
     color: #8987A1;
 
 }
+.footer-text ul {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 30px;
+}
+.footer-text ul li{
+    list-style: none;
+
+}
+.footer-text  li a{
+    text-decoration: none;
+    color: #8987A1;
+}
