@@ -98,6 +98,19 @@ nav {
     padding: 19px 100px;
     text-align: center;
 }
+.btn-5{
+     width: 195pxpx;
+    height: 48px;
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight:500 ;
+    margin-top: 20px;
+    padding: 12px 36px;
+    text-align: center;
+}
 
 
 
@@ -146,7 +159,7 @@ nav {
 }
 /* feedback */
 .feedback{
-    border: 2px solid red;
+   
     width:1140px ;
     height: 360px;
 }
@@ -165,7 +178,8 @@ nav {
 .card{
     width: 366px;
     height: 250px;
-    border: 2px solid blue;
+    border:2px solid #dfddf2;
+   
     padding: 0px 24px;
     border-radius:14px ;
     
@@ -173,8 +187,23 @@ nav {
 .card img{
     margin-top: 15px;
 }
-.avatar p{
-    color;
+.focus{
+    
+    width: 1140px;
+    height: 600px;
+    margin-top:137px ;
+    padding:71px 150px ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.focus-content{
+    text-align: center;
+    gap:20px;
+}
+.focus-img{
+    text-align: center;
+    
 }
 
 
