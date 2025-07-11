@@ -1,6 +1,6 @@
 * {
     font-family: "Roboto", sans-serif;
- 
+
 
 
 }
@@ -36,6 +36,7 @@ nav {
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
+        cursor: pointer;
 }
 
 .btn-1 {
@@ -47,6 +48,8 @@ nav {
     border: none;
     font-size: 16px;
     font-weight: bold;
+    transition:background-color 0.3s, transform 0.3s ;
+    cursor: pointer;
 
 }
 
@@ -56,6 +59,7 @@ nav {
     height: 237px;
     text-align: center;
     margin: 158px auto;
+    
 
 }
 
@@ -69,6 +73,8 @@ nav {
     font-size: 16px;
     font-weight: bold;
     margin-top: 37px;
+    transition:background-color 0.3s, transform 0.3s ;
+    cursor: pointer;
 
 
 }
@@ -84,7 +90,10 @@ nav {
     font-weight: bold;
     margin-top: 37px;
     padding: 12px 36px;
+    transition:background-color 0.3s, transform 0.3s ;
+    cursor: pointer;
 }
+
 .btn-4 {
     width: 497px;
     height: 62px;
@@ -97,21 +106,42 @@ nav {
     margin-top: 37px;
     padding: 19px 100px;
     text-align: center;
+    transition:background-color 0.3s, transform 0.3s ;
+    cursor: pointer;
 }
-.btn-5{
-     width: 195pxpx;
+
+.btn-5 {
+    width: 195pxpx;
     height: 48px;
     background-color: #4E47FF;
     color: white;
     border-radius: 10px;
     border: none;
     font-size: 16px;
-    font-weight:500 ;
+    font-weight: 500;
     margin-top: 20px;
     padding: 12px 36px;
     text-align: center;
-}
+    transition:background-color 0.3s, transform 0.3s ;
+    cursor: pointer;
 
+}
+.btn-1:hover {
+    background-color:rgb(217, 164, 164) ;
+}
+.btn-2:hover {
+    background-color:rgb(217, 164, 164) ;
+}
+.btn-3:hover {
+    background-color:rgb(217, 164, 164) ;
+}
+.btn-4:hover {
+    background-color:rgb(217, 164, 164) ;
+}
+.btn-5:hover {
+    background-color:rgb(217, 164, 164) ;
+}
+ 
 
 
 .action {
@@ -128,15 +158,17 @@ nav {
 .action-img img {
     border-radius: 48px;
 }
-.productive-banner{
+
+.productive-banner {
     margin-bottom: 137px;
 }
+
 .productive {
     background-color: #4E47FF20;
     width: 1140px;
     height: 306px;
     border-radius: 24px;
-   
+
     text-align: center;
 }
 
@@ -147,7 +179,7 @@ nav {
 
 .stat {
     text-align: center;
-      padding: 10px 80px;
+    padding: 10px 80px;
 }
 
 .stat h2 {
@@ -157,107 +189,126 @@ nav {
 .stat p {
     margin: 0;
 }
+
 /* feedback */
-.feedback{
-   
-    width:1140px ;
+.feedback {
+
+    width: 1140px;
     height: 360px;
 }
-.feedback-title{
+
+.feedback-title {
     font-size: 42px;
-    font-weight: bold;color: #252432;
+    font-weight: bold;
+    color: #252432;
     text-align: center;
     margin: 0;
-    margin-bottom:50px ;
+    margin-bottom: 50px;
 }
-.cards{
+
+.cards {
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
-.card{
+
+.card {
     width: 366px;
     height: 250px;
-    border:2px solid #dfddf2;
-   
+    border: 2px solid #dfddf2;
+
     padding: 0px 24px;
-    border-radius:14px ;
-    
+    border-radius: 14px;
+
 }
-.card img{
+
+.card img {
     margin-top: 15px;
 }
-.focus{
-    
+
+.focus {
+
     width: 1140px;
     height: 600px;
-    margin-top:137px ;
-    padding:71px 150px ;
+    margin-top: 137px;
+    padding: 71px 150px;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.focus-content{
+
+.focus-content {
     text-align: center;
-    gap:20px;
+    gap: 20px;
 }
-.focus-img{
+
+.focus-img {
     text-align: center;
-    
+
 }
 
 
-.touch{
-   
+.touch {
+
     width: 1140px;
-    height:632px;
-    margin-top:92px ;
+    height: 632px;
+    margin-top: 92px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.touch-box label{
+
+.touch-box label {
     font-size: 18px;
-    font-weight:500 ;
+    font-weight: 500;
 }
 
-.touch-box input{
+.touch-box input {
     width: 497px;
-    height:70px;
-    padding:0px 32px;
+    height: 70px;
+    padding: 0px 32px;
     font-size: 20px;
-    border-radius:10px ;
+    border-radius: 10px;
     border: 1px solid #D6DDED;
-   
+
 
 }
-.touch-box textarea{
+
+
+.touch-box textarea {
     padding: 20px;
-    border-radius:10px ;
-    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    border: 1px solid #ebe7ed;
     font-size: 20px;
 
-    
+
 }
- .footer{
-   
+
+.footer {
+
     height: 428px;
     align-items: center;
     margin-top: 104px;
- }
+   
+}
 
- .footer-content{
-  
+.footer-content {
+
     text-align: center;
     align-items: center;
     height: 221px;
     width: 531px;
- }
- .footer-text{
-    display: flex;
-    
-     justify-content: center;
-     justify-content: space-around;
-     color:#8987A1 ;
+     display: flex;
+    flex-direction: column;
+    gap:20px ;
+    gap:20px ;
+}
 
- }
+.footer-text {
+    display: flex;
+
+    justify-content: center;
+    justify-content: space-around;
+    color: #8987A1;
+
+}
